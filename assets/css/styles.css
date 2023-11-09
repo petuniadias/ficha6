@@ -1,0 +1,68 @@
+/*
+ * Last Modification: 2023-11-07
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+   padding: 20px;
+   background-color: #070606;
+   color: #FFFFFF;
+   font-family: 'Raleway', sans-serif;
+   max-width: 450px;
+}
+
+header {
+   padding-bottom: 40px;
+   max-width: 300px;
+}
+
+.title {
+   font-size: 30px;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+
+.description {
+   font-size: 9px;
+   line-height: 12px;
+   color: #bdbdbd;
+}
+
+.button-start {
+   background-color: #2B892E;
+   color: #FFFFFF;
+   padding: 8px 14px;
+   border-radius: 15px;
+   border: 0;
+   text-decoration: none;
+   cursor: pointer;
+   font-size: 8px;
+}
+
+
+.button-start:hover {
+   background-color: #267928;
+}
+
+.main-image {
+   width: 100%;
+   height: auto;
+   max-width: 600px;
+}
+
+.main-image:hover {
+   filter: sepia(50);
+   transform: scaleX(-1);
+   cursor: pointer;
+}
+
+/*
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+ * https://getbootstrap.com/docs/5.3/layout/breakpoints/
+ */
+@media (min-width:576px) {
+   .main-image {
+      width: 75%;
+   }
+}
