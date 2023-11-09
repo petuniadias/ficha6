@@ -14,19 +14,20 @@ body {
 
 header {
    padding-bottom: 40px;
-   max-width: 300px;
+   max-width: 400px;
 }
 
 .title {
-   font-size: 30px;
+   font-size: 40px;
    font-weight: 500;
    text-transform: capitalize;
 }
 
 .description {
-   font-size: 9px;
-   line-height: 12px;
+   font-size: 12px;
+   line-height: 16px;
    color: #bdbdbd;
+   padding-bottom: 10px;
 }
 
 .button-start {
@@ -37,7 +38,7 @@ header {
    border: 0;
    text-decoration: none;
    cursor: pointer;
-   font-size: 8px;
+   font-size: 10px;
 }
 
 
@@ -63,6 +64,6 @@ header {
  */
 @media (min-width:576px) {
    .main-image {
-      width: 75%;
+      width: 90%;
    }
 }
